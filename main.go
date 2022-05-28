@@ -40,11 +40,13 @@ func (mp myPrinter) Fax() string {
 	return "Faxed One page ..."
 }
 
+
 type scondPrinter struct{}
 
 func (sp scondPrinter) Print() string {
 	return "Printing More pages >>>"
 }
+
 
 func (sp scondPrinter) Scan() string {
 	return "Scanned More pages >>>"
@@ -87,3 +89,4 @@ func tutorials() {
 
 	channel2()
 }
+
