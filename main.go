@@ -72,14 +72,21 @@ func main() {
 }
 
 func tutorials() {
-	slic()
-	pointer()
+	//slic()
+	//pointer()
 	fmt.Println("---------------------------------------")
-	arrayd()
+	//arrayd()
 	fmt.Println("---------------------------------------")
-	composit()
+	//composit()
 	fmt.Println("---------------------------------------")
-	getTag()
+	//getTag()
 	fmt.Println("-------------************---------------")
-	errHandel()
+	//errHandel()
+
+	//goRoutin()
+
+	// channel()
+
+	channel2()
+}
 
