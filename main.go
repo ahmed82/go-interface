@@ -5,7 +5,8 @@ import (
 
 	"github.com/ahmed82/go-interface/pkg"
 	service "github.com/ahmed82/go-interface/pkg/services"
-	//"github.com/ahmed82/go-interface/pkg/service"
+
+
 )
 
 type Printer interface {
@@ -46,11 +47,13 @@ func (mp myPrinter) Fax() string {
 	return "Faxed One page ..."
 }
 
+
 type scondPrinter struct{}
 
 func (sp scondPrinter) Print() string {
 	return "Printing More pages >>>"
 }
+
 
 func (sp scondPrinter) Scan() string {
 	return "Scanned More pages >>>"
@@ -95,4 +98,6 @@ func tutorials() {
 	//pkg.PanicEx()
 	pkg.TestDivide()
 	service.InterfaceAdv()
+
 }
+
