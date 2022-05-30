@@ -40,7 +40,7 @@ func (bwc *BufferedWriterCloser) Write(data []byte) (int, error) {
 		if err != nil {
 			return 0, err
 		}
-		_, err := fmt.Println(string(v))
+		_, err = fmt.Println(string(v))
 		if err != nil {
 			return 0, err
 		}
