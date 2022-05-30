@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/ahmed82/go-interface/pkg"
+)
 
 type Printer interface {
 	Print() string
@@ -80,10 +84,12 @@ func tutorials() {
 	//getTag()
 	fmt.Println("-------------************---------------")
 	//errHandel()
-
 	//goRoutin()
-
 	// channel()
+	//channel2()
 
-	channel2()
+	//pkg.Robot()
+
+	//pkg.PanicEx()
+	pkg.TestDivide()
 }
