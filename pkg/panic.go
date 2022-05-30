@@ -26,7 +26,7 @@ func TestDivide() {
 
 func divide(a, b float64) (float64, error) {
 	if b == 0.0 {
-		return 0.0, fmt.Errorf("Cannot divide by zero...")
+		return 0.0, fmt.Errorf("Cannot divide by zero...%s")
 	}
 	return a / b, nil
 }

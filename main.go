@@ -4,6 +4,8 @@ import (
 	"fmt"
 
 	"github.com/ahmed82/go-interface/pkg"
+	service "github.com/ahmed82/go-interface/pkg/services"
+	//"github.com/ahmed82/go-interface/pkg/service"
 )
 
 type Printer interface {
@@ -92,4 +94,5 @@ func tutorials() {
 
 	//pkg.PanicEx()
 	pkg.TestDivide()
+	service.InterfaceAdv()
 }
